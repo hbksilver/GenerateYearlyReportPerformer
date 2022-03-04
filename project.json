@@ -3,7 +3,9 @@
   "description": "Generate Yearly Report using queue. Seperate dispatcher and performer",
   "main": "Main.xaml",
   "dependencies": {
+    "Microsoft.Activities": "[1.0.1]",
     "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.14.0-preview]",
     "UiPath.System.Activities": "[21.10.4]",
     "UiPath.Testing.Activities": "[1.4.6]",
     "UiPath.UIAutomation.Activities": "[21.10.5]"
